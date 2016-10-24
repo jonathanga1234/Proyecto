@@ -1,39 +1,24 @@
-
 #head{
-
 background: #333;
 color: white;
-
-
 height: 100px;
 width: 100%;
 left: 0;
 top: 0;
 position: fixed;
-
 }
-
-
-input[type="image"] 
+input[type="image"]
 {
-	
-
-    width: 90px;
-    height: 90px;
-    border: 1px solid #CCC;
+width: 90px;
+height: 90px;
+border: 1px solid #CCC;
 }
-
 .boton1{
-
-	 width="25" ;
-	 height="15";
-
-  float: left;
-    border: 1px solid green
-
+width="25" ;
+height="15";
+float: left;
+border: 1px solid green
 }
-
-
 #footer{
 background-color: #3d3d3d;
 padding: 10px 0 20px 0;
@@ -55,39 +40,25 @@ height: 500px;
 width: 1200px;
 }
 body{
-
-
 background: #333;
-  
 }
 .menu{
-
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-
-
-
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
 }
 li {
-    float: left;
+float: left;
 }
-
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
-
 li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
+background-color: #111;
 }

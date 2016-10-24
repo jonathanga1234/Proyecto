@@ -1,48 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head><link rel="stylesheet" type="text/css" href="./css/estilotoyta.css">
+	<head><link rel="stylesheet" type="text/css" href="./css/estilotoyta.css">
 	<title>Toyota</title>
 	<div  id ="head">
-
-	<IMG SRC="./img/crautoslogo.png">
-
-</div>
+		<IMG SRC="./img/crautoslogo.png">
+	</div>
+	<style type="text/css">
+	/*<![CDATA[*/
+	<!--
+	div.ic_myCarousel {
+	margin: 20px auto 0 auto;
+	clear:right;
+	}
+	.infiniteCarousel {
+	box-shadow: 0px 3px 3px #333;
+	border: 3px solid #333;
+	}
+	.ic_left_nav, .ic_right_nav {
+	display: none;
+	}
+	-->
+	/*]]>*/
+	</style>
+	<ul id="carousel">
+		<li><img width="200" height="86" alt="" src="./img/hy1.jpg "/></li>
+		<li><img width="200" height="86" alt="" src="./img/b1.jpg" /></li>
+		<li><img width="200" height="86" alt="" src="./img/c1.jpg" /></li>
+		<li><img width="200" height="86" alt="" src="./img/f1.jpg" /></li>
+	</ul>
+	<ul class="menu">
+		<li><a class="toyota" href="#home" onclick = "location='./toyota.html'">toyota</a></li>
+		<li><a href="#Honda" onclick = "location='./honda.html'">honda</a></li>
+		<li><a href="#hyundai" onclick = "location='./hyundai.html'">hyundai</a></li>
+		<li><a href="#nissan" onclick = "location='./nissan.html'">hyundai</a></li>
+		<li><a href="#Mercedes" onclick = "location='./Mercedes.html'">Mercedes</a></li>
+		<li><a href="#chevrolet" onclick = "location='./chevrolet.html'">chevrolet</a></li>
+		<li><a href="#ferrari" onclick = "location='./ferrari.html'">ferrari</a></li>
+		<li><a href="#bmw" onclick = "location='./bmw.html'">bmw</a></li>
+		<li><a href="#formulario">formulario</a></li>
+	</ul>
 </head>
 <body>
-<div class="uno">
-
-<button class="red" name="toyota1" onclick = "location='./t1.html'"> 
-<img src="./img/t1.jpg" width="90" height="90" alt="">
-</button>
-
-<button class="red" name="toyota1" onclick = "location='./t2.html'"> 
-<img src="./img/t2.jpg" width="90" height="90" alt="">
-</button>
-<button class="red" name="toyota1"onclick = "location='./t3.html'"> > 
-<img src="./img/t3.jpg" width="90" height="90" alt="">
-</button>
-<button class="red" name="toyota1"onclick = "location='./t4.html'"> > 
-<img src="./img/t4.jpg" width="90" height="90" alt="">
-</button>
-<button class="red" name="toyota1"onclick = "location='./t5.html'"> > 
-<img src="./img/t5.jpg" width="90" height="90" alt="">
-</button>
-</div>
-
-
+	<div class="uno">
+		<button class="red" name="toyota1" onclick = "location='./t1.html'">
+		<img src="./img/t1.jpg" width="90" height="90" alt="">
+		</button>
+		<button class="red" name="toyota1" onclick = "location='./t2.html'">
+		<img src="./img/t2.jpg" width="90" height="90" alt="">
+		</button>
+		<button class="red" name="toyota1"onclick = "location='./t3.html'"> >
+		<img src="./img/t3.jpg" width="90" height="90" alt="">
+		</button>
+		<button class="red" name="toyota1"onclick = "location='./t4.html'"> >
+		<img src="./img/t4.jpg" width="90" height="90" alt="">
+		</button>
+		<button class="red" name="toyota1"onclick = "location='./t5.html'"> >
+		<img src="./img/t5.jpg" width="90" height="90" alt="">
+		</button>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://notoyontoy.site40.net/Js/jquery.infinitecarousel3.min.js"></script>
+	<script type="text/javascript" src="http://notoyontoy.site40.net/Js/easing.js"></script>
+	<script>
+	var a = jQuery.noConflict();
+	a(document).ready(function() {
+	a('#carousel').infiniteCarousel({
+	transitionSpeed:12000,     /*Tiempo de avance de las imagenes*/
+	displayTime: 2000,   /* El tiempo en milisegundos para hacer pausa*/
+	thumbnailType: 'false',
+	customClass: 'myCarousel',
+	easeLeft: 'linear',
+	easeRight:'linear',
+	inView: 1,    /*Imagenes mostradas*/
+	advance: true,
+	autoPilot: true,
+	displayProgressRing: true,    /*muestra grafica del tiempo que pausa la imagen*/
+	});
+	});
+	</script>
 </body>
-
 <footer>
 	<div  id ="footer">
-
-
-	<IMG SRC="./img/crautoslogo.png">
-
-
- <p>Posted by: jonathan garcia</p>
-  <p>Contact information: <a href="mailto:garciajonathan@gmai.com">
-  garciajonathan@gmai.com</a>.</p>
-
-</div></footer>
-
+		<IMG SRC="./img/crautoslogo.png">
+		<p>Posted by: jonathan garcia</p>
+		<p>Contact information: <a href="mailto:garciajonathan@gmai.com">
+		garciajonathan@gmai.com</a>.</p>
+	</div></footer>
 </html>
