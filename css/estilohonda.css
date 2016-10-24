@@ -1,0 +1,68 @@
+#head{
+background: #333;
+color: white;
+height: 80px;
+height: 100px;
+width: 100%;
+left: 0;
+top: 0;
+position: fixed;
+}
+input[type="image"]
+{
+
+width: 90px;
+height: 90px;
+border: 1px solid #CCC;
+}
+.red:hover{
+width: 300px;
+height: 300px;
+}
+button:nth-of-type(1):hover{
+clear: both;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: gray;
+}
+button:nth-of-type(2):hover{
+clear: both;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: gray;}
+button:nth-of-type(3):hover{
+clear: both;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: gray;
+}
+button:nth-of-type(4):hover{
+clear: both;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: gray;
+}
+button:nth-of-type(5):hover{
+clear: both;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: gray;
+}
+body{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 600px;
+width: 1200px;
+}
