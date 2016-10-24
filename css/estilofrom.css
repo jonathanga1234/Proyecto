@@ -1,0 +1,77 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.formulario{
+      border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#head{
+background: #333;
+color: white;
+height: 100px;
+width: 100%;
+left: 0;
+top: 0;
+position: fixed;
+}
+#footer{
+background-color: #3d3d3d;
+padding: 10px 0 20px 0;
+position: relative;
+
+margin-top: -50px;
+
+height: 100px;
+padding:5px 0px;
+clear: both;
+background: #286af0;
+text-align: center;
+color: #fff;
+}
+.formulario{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 500px;
+width: 1100px;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover:not(.active) {
+background-color: #111;
+}
+body{
+background: #333;
+
+}
